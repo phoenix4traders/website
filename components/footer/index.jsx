@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
 
           <div class="mt-6 lg:mt-0 lg:flex-1">
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div class="grid grid-cols-2 gap-6  lg:grid-cols-4">
               <div>
                 <h3 class="font-bold uppercase text-gray-700">About</h3>
                 <a
@@ -50,12 +50,6 @@ const Footer = () => {
                   class="mt-2 block text-sm text-gray-600 hover:underline"
                 >
                   Community
-                </a>
-                <a
-                  href="#"
-                  class="mt-2 block text-sm text-gray-600 hover:underline"
-                >
-                  Careers/Jobs
                 </a>
               </div>
 
@@ -88,12 +82,6 @@ const Footer = () => {
                   class="mt-2 block text-sm text-gray-600 hover:underline"
                 >
                   Mobile App
-                </a>
-                <a
-                  href="#"
-                  class="mt-2 block text-sm text-gray-600 hover:underline"
-                >
-                  Desktop App
                 </a>
                 <a
                   href="#"

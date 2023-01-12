@@ -5,12 +5,12 @@ import { Navbar, Footer } from '../components'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="bg-gray-50 min-w-screen">
+    <div className="bg-white min-w-screen">
         <Navbar />
-      <main className=' py-16 pb-5 w-md mx-auto min-h-screen'>
+      <main className='w-full py-16 pb-5 w-md mx-auto '>
         <Component {...pageProps} />
-      </main>
         <Footer/>
+      </main>
     </div>
   )
 }
