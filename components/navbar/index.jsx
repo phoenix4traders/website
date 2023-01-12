@@ -20,22 +20,28 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed w-full  text-lg z-50" ref={menuRef}>
+    <div
+      className=" fixed z-50 w-screen md:shadow-md text-lg lg:bg-white"
+      ref={menuRef}
+    >
       <nav
-        className="flex container bg-white shadow-md mx-auto justify-between items-center h-16  text-black relative font-mono"
+        className="font-mono container relative mx-auto flex h-16 items-center justify-between  bg-white text-black shadow-md md:shadow-none"
         role="navigation"
       >
-        <a href="#" className="pl-8 text-3xl font-extrabold text-red-400 font-dmsans">
+        <a
+          href="#"
+          className="pl-8 font-dmsans text-3xl font-extrabold text-red-400"
+        >
           phoeniX
         </a>
         <div
-          className="px-4 cursor-pointer md:hidden"
+          className="cursor-pointer px-4 md:hidden"
           onClick={() => {
             setIsOpen((isOpen) => !isOpen);
           }}
         >
           <svg
-            className="w-6 h-6"
+            className="h-6 w-6"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -49,7 +55,7 @@ const Navbar = () => {
             ></path>
           </svg>
         </div>
-        <div className="pr-8 md:block hidden">
+        <div className="hidden pr-8 md:block">
           <a href="#Home" className="p-4 hover:text-red-400">
             Home
           </a>
@@ -62,29 +68,33 @@ const Navbar = () => {
         </div>
       </nav>
 
-        <sideNav className={`md:hidden block transition-all duration-500 bg-white ${isOpen ? 'translate-x-0' : 'translate-x-full'} shadow-md `}>
-          <hr class=" border-gray-200" />
-          <div className="px-2 pt-2 pb-4 space-y-3 text-center text-2xl">
-            <a
-              href="#Home"
-              className="block px-3 py-2 rounded-md font-medium text-gray-700 hover:text-white hover:bg-red-400"
-            >
-              Home
-            </a>
-            <a
-              href="#About"
-              className="block px-3 py-2 rounded-md font-medium text-gray-700 hover:text-white hover:bg-red-400"
-            >
-              About
-            </a>
-            <a
-              href="#Contact"
-              className="block px-3 py-2 rounded-md font-medium text-gray-700 hover:text-white hover:bg-red-400"
-            >
-              Contact
-            </a>
-          </div>
-        </sideNav>
+      <sideNav
+        className={`block bg-white transition-all duration-500 md:hidden ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        } shadow-md `}
+      >
+        <hr class=" border-gray-200" />
+        <div className="space-y-3 px-2 pt-2 pb-4 text-center text-2xl">
+          <a
+            href="#Home"
+            className="block rounded-md px-3 py-2 font-medium text-gray-700 hover:bg-red-400 hover:text-white"
+          >
+            Home
+          </a>
+          <a
+            href="#About"
+            className="block rounded-md px-3 py-2 font-medium text-gray-700 hover:bg-red-400 hover:text-white"
+          >
+            About
+          </a>
+          <a
+            href="#Contact"
+            className="block rounded-md px-3 py-2 font-medium text-gray-700 hover:bg-red-400 hover:text-white"
+          >
+            Contact
+          </a>
+        </div>
+      </sideNav>
     </div>
   );
 };
