@@ -38,7 +38,6 @@ const Slideshow = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
