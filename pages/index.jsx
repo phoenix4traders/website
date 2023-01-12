@@ -13,7 +13,7 @@ import {
   SiZcash,
 } from "react-icons/si";
 
-import { Slideshow } from '../components'
+import { Slideshow, ContactForm } from '../components'
 
 const Index = () => {
   return (
@@ -212,43 +212,7 @@ const Index = () => {
               <span class="ml-1 inline-block h-1 w-1 rounded-full bg-red-400"></span>
             </div>
           </div>
-          <div class="mx-auto w-full overflow-hidden rounded-lg bg-white px-8 py-10 shadow-lg shadow-gray-300/50 lg:max-w-xl  ">
-            <form class="mt-6">
-              <div class="flex-1">
-                <label class="mb-2 block text-sm text-gray-600">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  placeholder="John Doe"
-                  class="mt-2 block w-full rounded-md border border-gray-200 bg-white px-5 py-3 text-gray-700 placeholder-gray-400 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:focus:border-blue-400"
-                />
-              </div>
-
-              <div class="mt-6 flex-1">
-                <label class="mb-2 block text-sm text-gray-600">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  placeholder="johndoe@example.com"
-                  class="mt-2 block w-full rounded-md border border-gray-200 bg-white px-5 py-3 text-gray-700 placeholder-gray-400 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:focus:border-blue-400"
-                />
-              </div>
-
-              <div class="mt-6 w-full">
-                <label class="mb-2 block text-sm text-gray-600">Message</label>
-                <textarea
-                  class="mt-2 block h-32 w-full rounded-md border border-gray-200 bg-white px-5 py-3 text-gray-700 placeholder-gray-400 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-40 dark:focus:border-blue-400 md:h-48"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-
-              <button class="mt-6 w-full transform rounded-md border-2 border-transparent bg-red-400 px-6 py-3 text-sm font-medium capitalize tracking-wide text-white transition-colors duration-300 hover:border-red-400 hover:border-red-400 hover:bg-white hover:text-red-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                get in touch
-              </button>
-            </form>
-          </div>
+          <ContactForm/>
         </div>
       </main>
     </div>

@@ -21,11 +21,11 @@ const Navbar = () => {
 
   return (
     <div
-      className=" fixed z-50 w-screen md:shadow-md text-lg lg:bg-white"
+      className=" fixed z-50 w-screen md:shadow-md text-lg md:bg-white"
       ref={menuRef}
     >
       <nav
-        className="font-mono container relative mx-auto flex h-16 items-center justify-between  bg-white text-black shadow-md md:shadow-none"
+        className="font-mono md:container relative mx-auto flex h-16 items-center justify-between  bg-white text-black shadow-md md:shadow-none"
         role="navigation"
       >
         <a
@@ -35,13 +35,13 @@ const Navbar = () => {
           phoeniX
         </a>
         <div
-          className="cursor-pointer px-4 md:hidden"
+          className="cursor-pointer px-6 md:hidden"
           onClick={() => {
             setIsOpen((isOpen) => !isOpen);
           }}
         >
           <svg
-            className="h-6 w-6"
+            className="h-10 w-10"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

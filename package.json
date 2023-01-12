@@ -6,12 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "formik": "^2.2.9",
     "next": "latest",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
