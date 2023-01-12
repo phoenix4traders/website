@@ -28,7 +28,7 @@ const Slideshow = () => {
     '/screenshot/screen (14).png',
     '/screenshot/screen (15).png',
     '/screenshot/screen (16).png',
-    '/screenshot/screen (17).png'
+    '/screenshot/Account.png'
   ]
 
 
