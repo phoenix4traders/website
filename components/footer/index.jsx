@@ -1,5 +1,5 @@
 import React from 'react'
-import {RiLinkedinFill} from 'react-icons/ri';
+import { RiLinkedinFill, RiPhoneFill, RiMailFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -18,19 +18,17 @@ const Footer = () => {
               </div>
 
               <p class="mt-2 max-w-sm text-gray-500 dark:text-gray-400">
-                Phoenix is India's first Derivatives cryptocurrency exchange
+                Phoenix is India's first Cryptocurrency Derivatives Exchange
               </p>
 
               <div class="-mx-2 mt-6 flex">
-                
                 <a
-                  href="#"
-                  class="mx-2 text-gray-600 transition-colors text-xl duration-300 hover:text-blue-500 "
+                  href="https://www.linkedin.com/company/phoenixch/"
+                  class="mx-2 text-xl text-gray-600 transition-colors duration-300 hover:text-blue-500 "
                   aria-label="Linked In"
                 >
-                  <RiLinkedinFill/>
+                  <RiLinkedinFill />
                 </a>
-
               </div>
             </div>
           </div>
@@ -40,7 +38,7 @@ const Footer = () => {
               <div>
                 <h3 class="font-bold uppercase text-gray-700">About</h3>
                 <a
-                  href="#"
+                  href="#About"
                   class="mt-2 block text-sm text-gray-600 hover:underline"
                 >
                   Company
@@ -93,12 +91,20 @@ const Footer = () => {
 
               <div>
                 <h3 class="font-bold uppercase text-gray-700">Contact</h3>
-                <span class="mt-2 block text-sm text-gray-600 hover:underline">
-                  +91 99999 99999
-                </span>
-                <span class="mt-2 block text-sm text-gray-600 hover:underline">
-                  example@email.com
-                </span>
+                <a
+                  href="tel:+919521421553"
+                  class="mt-2 flex flex-row gap-2 items-center text-sm text-gray-600 hover:underline"
+                >
+                  <RiPhoneFill />
+                  +91 95214 21553
+                </a>
+                <a
+                  href="mailto:iamraviutsav@gmail.com"
+                  class="mt-2 flex flex-row gap-2 items-center text-sm text-gray-600 hover:underline"
+                >
+                  <RiMailFill />
+                  iamraviutsav@gmail.com
+                </a>
               </div>
             </div>
           </div>

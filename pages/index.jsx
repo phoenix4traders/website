@@ -21,24 +21,51 @@ const Index = () => {
       <Head>
         <title>PhoeniX - For the trader, by the trader</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Phoenix is India's first Cryptocurrency Derivatives Exchange" />
+        <meta
+          name="description"
+          content="Phoenix is India's first Cryptocurrency Derivatives Exchange"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={"https://phoenix4traders.vercel.app/"} />
-        <meta property="og:title" content="PhoeniX - For the trader, by the trader" />
-        <meta property="og:description" content="Phoenix is India's first Cryptocurrency Derivatives Exchange" />
-        <meta property="og:image" content="https://phoenix4traders.vercel.app/meta.jpg"/>
+        <meta
+          property="og:url"
+          content={"https://phoenix4traders.vercel.app/"}
+        />
+        <meta
+          property="og:title"
+          content="PhoeniX - For the trader, by the trader"
+        />
+        <meta
+          property="og:description"
+          content="Phoenix is India's first Cryptocurrency Derivatives Exchange"
+        />
+        <meta
+          property="og:image"
+          content="https://phoenix4traders.vercel.app/meta.jpg"
+        />
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={"https://phoenix4traders.vercel.app/"}/>
-        <meta property="twitter:image" content="https://phoenix4traders.vercel.app/meta.jpg" />
+        <meta
+          property="twitter:url"
+          content={"https://phoenix4traders.vercel.app/"}
+        />
+        <meta
+          property="twitter:image"
+          content="https://phoenix4traders.vercel.app/meta.jpg"
+        />
 
         <meta property="twitter:domain" content="phoenix4traders.vercel.app" />
-        <meta property="twitter:title" content="PhoeniX - For the trader, by the trader" />
-        <meta property="twitter:description" content="Phoenix is India's first Cryptocurrency Derivatives Exchange" />
-        
+        <meta
+          property="twitter:title"
+          content="PhoeniX - For the trader, by the trader"
+        />
+        <meta
+          property="twitter:description"
+          content="Phoenix is India's first Cryptocurrency Derivatives Exchange"
+        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="py-10">
@@ -84,9 +111,12 @@ const Index = () => {
                 </h1>
 
                 <p class="mt-2 text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Dignissim fusce tortor, ac sed malesuada blandit. Et mi
-                  gravida sem feugiat.
+                  Cryptocurrency futures and options are financial derivatives
+                  that allow traders to speculate on the future price of digital
+                  assets such as Bitcoin, Ethereum, and Litecoin. It provide
+                  traders with additional tools to manage risk and potentially
+                  increase their returns. It can be used for
+                  hedging or speculation.
                 </p>
               </div>
 
@@ -99,9 +129,12 @@ const Index = () => {
                 </h1>
 
                 <p class="mt-2 text-white ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Dignissim fusce tortor, ac sed malesuada blandit. Et mi
-                  gravida sem feugiat.
+                  A cryptocurrency web3.0 wallet is a digital wallet that
+                  enables users to store, manage, and interact with their
+                  digital assets using a web-based interface built on web3.0
+                  technology. It provides users with greater control, security
+                  and the ability to access decentralized apps and smart
+                  contracts on the blockchain.
                 </p>
               </div>
 
@@ -114,9 +147,13 @@ const Index = () => {
                 </h1>
 
                 <p class="mt-2 text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Dignissim fusce tortor, ac sed malesuada blandit. Et mi
-                  gravida sem feugiat.
+                  Our cryptocurrency app features a dedicated news and articles
+                  section that provides users with the latest updates and
+                  insights on the digital currency market. This section includes
+                  real-time news and analysis on price movements, regulatory
+                  changes, and industry developments. This feature also allows
+                  users to customize their news feed, to stay updated on the
+                  currencies they are interested in.
                 </p>
               </div>
             </div>
@@ -139,22 +176,16 @@ const Index = () => {
                   </div>
                 </div>
                 <p className="text-justify font-dmsans text-xl text-gray-700 lg:pr-16">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptate expedita ipsa dolor quo! Non facilis, dolorum, sit
-                  aperiam officia dicta eius similique libero iure nulla
-                  voluptas! Atque suscipit commodi inventore mollitia possimus.
-                  Quos fugiat dicta ea corporis iste ad accusamus laudantium
-                  iusto, pariatur, voluptatum maxime, enim libero dolores beatae
-                  et.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptate expedita ipsa dolor quo! Non facilis, dolorum, sit
-                  aperiam officia dicta eius similique libero iure nulla
-                  voluptas! Atque suscipit commodi inventore mollitia possimus.
-                  Quos fugiat dicta ea corporis iste ad accusamus laudantium
-                  iusto, pariatur, voluptatum maxime, enim libero dolores beatae
-                  et.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Voluptate expedita ipsa dolor quo! Non facilis, dolorum, sit
-                  aperiam officia dicta eius similique libero iure nulla
-                  voluptas!
+                  Our Company is dedicated to providing a seamless and secure
+                  platform for buying, selling, and trading digital assets. We
+                  offer a wide range of popular cryptocurrencies and strive to
+                  make the trading process as easy and intuitive as possible.
+                  With 24/7 customer support and advanced security measures in
+                  place, we aim to be the go-to choice for individuals looking
+                  to enter the world of cryptocurrency trading. Our platform
+                  also offers a variety of tools and resources to help traders
+                  make informed decisions and stay up-to-date on the
+                  latest market trends.
                 </p>
               </div>
 
@@ -212,7 +243,7 @@ const Index = () => {
               <span class="ml-1 inline-block h-1 w-1 rounded-full bg-red-400"></span>
             </div>
           </div>
-          <ContactForm/>
+          <ContactForm />
         </div>
       </main>
     </div>
