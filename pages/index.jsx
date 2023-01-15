@@ -209,32 +209,32 @@ const Index = () => {
               <img
                 className="h-10 md:h-20 w-auto rounded-full"
                 src="/crypto-logo/ethereum.png"
-                alt="bitcoin"
+                alt="ethereum"
               />
               <img
                 className="h-10 md:h-20 w-auto rounded-full"
                 src="/crypto-logo/dogecoin.png"
-                alt="bitcoin"
+                alt="dogecoin"
               />
               <img
                 className="h-10 md:h-20 w-auto rounded-full"
                 src="/crypto-logo/litecoin.png"
-                alt="bitcoin"
+                alt="litecoin"
               />
               <img
                 className="h-10 md:h-20 w-auto rounded-full"
                 src="/crypto-logo/monero.png"
-                alt="bitcoin"
+                alt="monero"
               />
               <img
                 className="h-10 md:h-20 w-auto "
                 src="/crypto-logo/ripple.png"
-                alt="bitcoin"
+                alt="ripple"
               />
               <img
                 className="h-10 md:h-20 w-auto rounded-full"
                 src="/crypto-logo/zcash.png"
-                alt="bitcoin"
+                alt="zcash"
               />
             </div>
           </div>
