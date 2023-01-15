@@ -199,10 +199,43 @@ const Index = () => {
             </div>
           </div>
           <hr class=" border-gray-200" />
-          <div class="container mx-auto px-6 py-10">
-            <div className="flex flex-row items-center justify-evenly text-6xl text-gray-300">
-              <SiBitcoin /> <SiEthereum /> <SiDogecoin /> <SiLitecoin />{" "}
-              <SiMonero /> <SiRipple /> <SiZcash />
+          <div class="container mx-auto px-5 py-5 md:px-6 md:py-10">
+            <div className="flex flex-row items-center justify-between  text-gray-300">
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/bitcoin.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/ethereum.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/dogecoin.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/litecoin.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/monero.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto "
+                src="/crypto-logo/ripple.png"
+                alt="bitcoin"
+              />
+              <img
+                className="h-10 md:h-20 w-auto rounded-full"
+                src="/crypto-logo/zcash.png"
+                alt="bitcoin"
+              />
             </div>
           </div>
 
